@@ -78,22 +78,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.75rem; }
 
-.section-light {
-  position: relative;
-  color:map-get($theme-colors, 'dark');
-  background-size:cover;
-  background-position: center;
-	&:before {
-    position: absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height: 100%;
-    content: ' ';
-    background: rgba(map-get($theme-colors, 'light'), 0.75);
-  }
-}
-
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
@@ -1665,7 +1649,7 @@ fieldset:disabled a.btn {
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     background-color: #12bbad;
-    border-color: #12bbad; }
+    border-color: #fff; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -2029,7 +2013,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 200;
-  color: #12bbad;
+  color: #ffffff;
   background-color: transparent; }
   .btn-link:hover {
     color: #0b756c;
